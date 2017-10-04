@@ -1,5 +1,8 @@
 {
   "name": "custom-directive",
-  "app_id": "",
-  "type": "ionic-angular"
+  "app_id": "2d42c160",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
 }

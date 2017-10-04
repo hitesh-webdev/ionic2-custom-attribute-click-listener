@@ -7,8 +7,8 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
+  htmlContent: string = 'In App Browser implementation. <a href="https://www.google.com">Open Google</a>';
 
-  }
+  constructor(public navCtrl: NavController) { }
 
 }
