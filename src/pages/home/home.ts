@@ -7,8 +7,16 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  htmlContent: string = 'In App Browser implementation. <a href="https://www.google.com">Open Google</a>';
+  htmlContent: string = '';
 
-  constructor(public navCtrl: NavController) { }
+  constructor(public navCtrl: NavController) { 
+
+    setTimeout(() => {
+
+      this.htmlContent = 'In App Browser implementation. <a href="https://www.google.com">Open Google</a>';
+
+    }, 10000);
+
+  }
 
 }
